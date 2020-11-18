@@ -1,0 +1,29 @@
+[[package]]
+name = "pyserial"
+version = "3.4"
+description = "Python Serial Port Extension"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "python-osc"
+version = "1.7.4"
+description = "Open Sound Control server and client implementations in pure Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.7"
+content-hash = "d0b753f20559cfb2922870d5718b209d834788fa1df3a2aff2bbb4952ed93154"
+
+[metadata.files]
+pyserial = [
+    {file = "pyserial-3.4-py2.py3-none-any.whl", hash = "sha256:e0770fadba80c31013896c7e6ef703f72e7834965954a78e71a3049488d4d7d8"},
+    {file = "pyserial-3.4.tar.gz", hash = "sha256:6e2d401fdee0eab996cf734e67773a0143b932772ca8b42451440cfed942c627"},
+]
+python-osc = [
+    {file = "python-osc-1.7.4.tar.gz", hash = "sha256:760f9d7a8c586a5347eb309336df08b308892cc6ca558b0874e7594bcb07d032"},
+]
