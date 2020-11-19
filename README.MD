@@ -3,10 +3,10 @@
 Simple example reading data from Arduino via serial and creating an Open Sound Control client for multimedia control...
 
 ### Instructions
-
+- `cd` to `python-osc-client` folder
 - `poetry install` to set up dependencies
 - `poetry shell` to start the virtual env
-- `python app.py` to start the app
+- `python python-osc-client.py` to start the app
 
 ### Configuration
 

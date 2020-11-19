@@ -2,8 +2,8 @@ import serial
 from pythonosc.udp_client import SimpleUDPClient
 
 class ArduinoOscInput:
-	def __init__(self, ip="127.0.0.1", client, osc_address="/ard/sensor1", osc_port=7000, serial_device='/dev/tty.usbmodem14201', baud_rate=19200):
-		self.CLIENT_IP = ip
+	def __init__(self, ip="127.0.0.1", osc_address="/ard/sensor1", osc_port=7000, serial_device='/dev/tty.usbmodem14201', baud_rate=19200):
+		self.client_ip = ip
 		self.osc_address = osc_address
 		self.osc_port = osc_port
 		self.serial_device = serial_device
