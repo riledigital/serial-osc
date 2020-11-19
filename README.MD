@@ -5,7 +5,7 @@ Simple example reading data from Arduino via serial and creating an Open Sound C
 ### Instructions
 
 - `poetry install` to set up dependencies
-- `poetry run 
+- `python app.py` to start
 
 Based on
 https://makersportal.com/blog/2018/2/25/python-datalogger-reading-the-serial-output-from-arduino-to-analyze-data-using-pyserial
